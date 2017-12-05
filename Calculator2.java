@@ -57,7 +57,7 @@ public class Calculator2 {
         System.out.print("Введите 2-ое число: ");
         double num2 = Input.doubleNum();
         System.out.println("------------ИТОГО---------------");
-        System.out.printf(num1 + " " + oper + " " + num2 + " = "+ "%.4f",Input.result(num1,num2,oper));
+        System.out.printf("%.4f %s %.4f %s %.4f",num1,oper,num2," = ",Input.result(num1,num2,oper));
     }
 }
 
