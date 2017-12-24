@@ -9,6 +9,7 @@ import java.util.Map;
 
 /**
  * Created by Egor on 23.12.2017.
+ * Реализация задания "файл с набором слов"
  */
 
 public class file {
