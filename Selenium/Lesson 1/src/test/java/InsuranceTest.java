@@ -26,8 +26,8 @@ public class InsuranceTest {
     public void beforeTest(){
         System.setProperty("webdriver.gecko.driver", "drv/geckodriver.exe");
         url="http://www.sberbank.ru/ru/person";
-        url2="http://www.sberbank.ru/ru/person/bank_inshure/insuranceprogram/life/travel";
-        url3="https://online.sberbankins.ru/store/vzr/index.html#/viewCalc";
+        //url2="http://www.sberbank.ru/ru/person/bank_inshure/insuranceprogram/life/travel";
+        //url3="https://online.sberbankins.ru/store/vzr/index.html#/viewCalc";
         driver = new FirefoxDriver();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.manage().window().maximize();
@@ -116,9 +116,25 @@ public class InsuranceTest {
         fullFill(By.name("middlename"),"Петрович");
         fullFill(By.name("birthDate"),"01.08.1985");
         fullFill(By.name("passport_series"),"9300");
-        fullFill(By.name("passport_number"),"6359874");
+        fullFill(By.name("passport_number"),"635987");
         fullFill(By.name("issueDate"),"10.11.2005");
         fullFill(By.name("issuePlace"),"Город N");
+
+        /**
+         * Проверяю поля формы "Оформление"
+         */
+        Assert.assertEquals("Romanov",driver.findElement(By.name("insured0_surname")).getAttribute("value"));
+        Assert.assertEquals("Petr",driver.findElement(By.name("insured0_name")).getAttribute("value"));
+        Assert.assertEquals("09.05.1965",driver.findElement(By.name("insured0_birthDate")).getAttribute("value"));
+        Assert.assertEquals("Романов",driver.findElement(By.name("surname")).getAttribute("value"));
+        Assert.assertEquals("Игорь",driver.findElement(By.name("name")).getAttribute("value"));
+        Assert.assertEquals("Петрович",driver.findElement(By.name("middlename")).getAttribute("value"));
+        Assert.assertEquals("01.08.1985",driver.findElement(By.name("birthDate")).getAttribute("value"));
+        Assert.assertEquals("9300",driver.findElement(By.name("passport_series")).getAttribute("value"));
+        Assert.assertEquals("635987",driver.findElement(By.name("passport_number")).getAttribute("value"));
+        Assert.assertEquals("10.11.2005",driver.findElement(By.name("issueDate")).getAttribute("value"));
+        Assert.assertEquals("Город N",driver.findElement(By.name("issuePlace")).getAttribute("value"));
+
 
         /**
          *  Поиск и нажатие кнопки "Продолжить"
