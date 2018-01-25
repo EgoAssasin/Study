@@ -1,0 +1,38 @@
+{
+  "time" : {
+    "start" : 1516828401497,
+    "stop" : 1516828411173,
+    "duration" : 9676
+  },
+  "testSuites" : [ {
+    "uid" : "7b8145b361b7a45a",
+    "name" : "AllureTest",
+    "title" : "Allure test",
+    "time" : {
+      "start" : 1516828401497,
+      "stop" : 1516828411173,
+      "duration" : 9676
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "3104d604145850f8",
+      "name" : "allureInsuranceTest",
+      "title" : "Страхование путешественников",
+      "time" : {
+        "start" : 1516828401497,
+        "stop" : 1516828411173,
+        "duration" : 9676
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

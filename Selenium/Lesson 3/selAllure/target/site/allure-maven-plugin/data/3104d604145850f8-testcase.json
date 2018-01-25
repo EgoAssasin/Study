@@ -1,0 +1,512 @@
+{
+  "uid" : "3104d604145850f8",
+  "name" : "allureInsuranceTest",
+  "title" : "Страхование путешественников",
+  "time" : {
+    "start" : 1516828401497,
+    "stop" : 1516828411173,
+    "duration" : 9676
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 31
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "7b8145b361b7a45a",
+    "name" : "AllureTest",
+    "title" : "Allure test"
+  },
+  "steps" : [ {
+    "name" : "stepSelectMainMenu[Раздел Застраховать себя  и имущество]",
+    "title" : "Выбран пункт меню Раздел Застраховать себя  и имущество",
+    "time" : {
+      "start" : 1516828401620,
+      "stop" : 1516828402488,
+      "duration" : 868
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "stepSelectSubMenu[/ru/person/bank_inshure/insuranceprogram/life/travel]",
+    "title" : "Выбран пункт меню /ru/person/bank_inshure/insuranceprogram/life/travel",
+    "time" : {
+      "start" : 1516828402489,
+      "stop" : 1516828404739,
+      "duration" : 2250
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "chekTitle[Страхование путешественников]",
+    "title" : "Проверить наличие на странице заголовка – Страхование путешественников",
+    "time" : {
+      "start" : 1516828404739,
+      "stop" : 1516828405259,
+      "duration" : 520
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "stepsSendIssueButton",
+    "title" : "Нажать на кнопку - Оформить онлайн",
+    "time" : {
+      "start" : 1516828405259,
+      "stop" : 1516828405789,
+      "duration" : 530
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "stepChoiceSum[Минимальная]",
+    "title" : "Выбрана max сумма страхованияМинимальная",
+    "time" : {
+      "start" : 1516828405799,
+      "stop" : 1516828408412,
+      "duration" : 2613
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "stepFullFill[{Имя=Игорь, ПаспортСерия=9300, ПаспортНомер=635987, Фамилия=Романов, ПаспортГдеВыдан=Город N, ИмяСтрахуемог...]",
+    "title" : "Заполнение полей:",
+    "time" : {
+      "start" : 1516828408912,
+      "stop" : 1516828410164,
+      "duration" : 1252
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 11
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepFullFill[Имя, Игорь]",
+      "title" : "Поле Имя заполняется значением Игорь",
+      "time" : {
+        "start" : 1516828408914,
+        "stop" : 1516828409002,
+        "duration" : 88
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "stepFullFill[ПаспортСерия, 9300]",
+      "title" : "Поле ПаспортСерия заполняется значением 9300",
+      "time" : {
+        "start" : 1516828409002,
+        "stop" : 1516828409082,
+        "duration" : 80
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "stepFullFill[ПаспортНомер, 635987]",
+      "title" : "Поле ПаспортНомер заполняется значением 635987",
+      "time" : {
+        "start" : 1516828409083,
+        "stop" : 1516828409164,
+        "duration" : 81
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "stepFullFill[Фамилия, Романов]",
+      "title" : "Поле Фамилия заполняется значением Романов",
+      "time" : {
+        "start" : 1516828409165,
+        "stop" : 1516828409253,
+        "duration" : 88
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "stepFullFill[ПаспортГдеВыдан, Город N]",
+      "title" : "Поле ПаспортГдеВыдан заполняется значением Город N",
+      "time" : {
+        "start" : 1516828409253,
+        "stop" : 1516828409458,
+        "duration" : 205
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "stepFullFill[ИмяСтрахуемого, Petr]",
+      "title" : "Поле ИмяСтрахуемого заполняется значением Petr",
+      "time" : {
+        "start" : 1516828409458,
+        "stop" : 1516828409533,
+        "duration" : 75
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "stepFullFill[ПаспортДатаВыдачи, 10.11.2005]",
+      "title" : "Поле ПаспортДатаВыдачи заполняется значением 10.11.2005",
+      "time" : {
+        "start" : 1516828409534,
+        "stop" : 1516828409679,
+        "duration" : 145
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "stepFullFill[ДатаРождения, 01.08.1985]",
+      "title" : "Поле ДатаРождения заполняется значением 01.08.1985",
+      "time" : {
+        "start" : 1516828409679,
+        "stop" : 1516828409844,
+        "duration" : 165
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "stepFullFill[ФамилияСтрахуемого, Romanov]",
+      "title" : "Поле ФамилияСтрахуемого заполняется значением Romanov",
+      "time" : {
+        "start" : 1516828409845,
+        "stop" : 1516828409925,
+        "duration" : 80
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "stepFullFill[ДатаРожденияСтрахуемого, 09.05.1965]",
+      "title" : "Поле ДатаРожденияСтрахуемого заполняется значением 09.05.1965",
+      "time" : {
+        "start" : 1516828409926,
+        "stop" : 1516828410082,
+        "duration" : 156
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "stepFullFill[Отчество, Петрович]",
+      "title" : "Поле Отчество заполняется значением Петрович",
+      "time" : {
+        "start" : 1516828410083,
+        "stop" : 1516828410164,
+        "duration" : 81
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "checkFullField[{Имя=Игорь, ПаспортСерия=9300, ПаспортНомер=635987, Фамилия=Романов, ПаспортГдеВыдан=Город N, ИмяСтрахуем...]",
+    "title" : "Поля заполнены следующими данными:",
+    "time" : {
+      "start" : 1516828410164,
+      "stop" : 1516828410817,
+      "duration" : 653
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 11
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "checkFullField[Имя, Игорь]",
+      "title" : "Поле Имя заполнено значением Игорь",
+      "time" : {
+        "start" : 1516828410165,
+        "stop" : 1516828410223,
+        "duration" : 58
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFullField[ПаспортСерия, 9300]",
+      "title" : "Поле ПаспортСерия заполнено значением 9300",
+      "time" : {
+        "start" : 1516828410224,
+        "stop" : 1516828410284,
+        "duration" : 60
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFullField[ПаспортНомер, 635987]",
+      "title" : "Поле ПаспортНомер заполнено значением 635987",
+      "time" : {
+        "start" : 1516828410285,
+        "stop" : 1516828410340,
+        "duration" : 55
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFullField[Фамилия, Романов]",
+      "title" : "Поле Фамилия заполнено значением Романов",
+      "time" : {
+        "start" : 1516828410341,
+        "stop" : 1516828410398,
+        "duration" : 57
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFullField[ПаспортГдеВыдан, Город N]",
+      "title" : "Поле ПаспортГдеВыдан заполнено значением Город N",
+      "time" : {
+        "start" : 1516828410399,
+        "stop" : 1516828410460,
+        "duration" : 61
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFullField[ИмяСтрахуемого, Petr]",
+      "title" : "Поле ИмяСтрахуемого заполнено значением Petr",
+      "time" : {
+        "start" : 1516828410460,
+        "stop" : 1516828410515,
+        "duration" : 55
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFullField[ПаспортДатаВыдачи, 10.11.2005]",
+      "title" : "Поле ПаспортДатаВыдачи заполнено значением 10.11.2005",
+      "time" : {
+        "start" : 1516828410515,
+        "stop" : 1516828410571,
+        "duration" : 56
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFullField[ДатаРождения, 01.08.1985]",
+      "title" : "Поле ДатаРождения заполнено значением 01.08.1985",
+      "time" : {
+        "start" : 1516828410572,
+        "stop" : 1516828410627,
+        "duration" : 55
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFullField[ФамилияСтрахуемого, Romanov]",
+      "title" : "Поле ФамилияСтрахуемого заполнено значением Romanov",
+      "time" : {
+        "start" : 1516828410628,
+        "stop" : 1516828410691,
+        "duration" : 63
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFullField[ДатаРожденияСтрахуемого, 09.05.1965]",
+      "title" : "Поле ДатаРожденияСтрахуемого заполнено значением 09.05.1965",
+      "time" : {
+        "start" : 1516828410691,
+        "stop" : 1516828410748,
+        "duration" : 57
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFullField[Отчество, Петрович]",
+      "title" : "Поле Отчество заполнено значением Петрович",
+      "time" : {
+        "start" : 1516828410749,
+        "stop" : 1516828410817,
+        "duration" : 68
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "stepSendContinueButton",
+    "title" : "Нажать на кнопку - Продолжить",
+    "time" : {
+      "start" : 1516828410817,
+      "stop" : 1516828411116,
+      "duration" : 299
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "stepCheckErrorMessage[Заполнены не все обязательные поля]",
+    "title" : "Проверка сообщения об ошибке по заполнению полей",
+    "time" : {
+      "start" : 1516828411117,
+      "stop" : 1516828411171,
+      "duration" : 54
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "3560@Egor-PC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "Egor-PC"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "suite-name",
+    "value" : "AllureTest"
+  } ],
+  "parameters" : [ ]
+}

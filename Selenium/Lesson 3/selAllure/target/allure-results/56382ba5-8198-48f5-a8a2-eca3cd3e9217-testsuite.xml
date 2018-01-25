@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1516828401476" stop="1516828411621" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>AllureTest</name>
+    <test-cases>
+        <test-case start="1516828401497" stop="1516828411173" status="passed">
+            <name>allureInsuranceTest</name>
+            <title>Страхование путешественников</title>
+            <steps>
+                <step start="1516828401620" stop="1516828402488" status="passed">
+                    <name>stepSelectMainMenu[Раздел Застраховать себя  и имущество]</name>
+                    <title>Выбран пункт меню Раздел Застраховать себя  и имущество</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1516828402489" stop="1516828404739" status="passed">
+                    <name>stepSelectSubMenu[/ru/person/bank_inshure/insuranceprogram/life/travel]</name>
+                    <title>Выбран пункт меню /ru/person/bank_inshure/insuranceprogram/life/travel</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1516828404739" stop="1516828405259" status="passed">
+                    <name>chekTitle[Страхование путешественников]</name>
+                    <title>Проверить наличие на странице заголовка – Страхование путешественников</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1516828405259" stop="1516828405789" status="passed">
+                    <name>stepsSendIssueButton</name>
+                    <title>Нажать на кнопку - Оформить онлайн</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1516828405799" stop="1516828408412" status="passed">
+                    <name>stepChoiceSum[Минимальная]</name>
+                    <title>Выбрана max сумма страхованияМинимальная</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1516828408912" stop="1516828410164" status="passed">
+                    <name>stepFullFill[{Имя=Игорь, ПаспортСерия=9300, ПаспортНомер=635987, Фамилия=Романов, ПаспортГдеВыдан=Город N, ИмяСтрахуемог...]</name>
+                    <title>Заполнение полей:</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1516828408914" stop="1516828409002" status="passed">
+                            <name>stepFullFill[Имя, Игорь]</name>
+                            <title>Поле Имя заполняется значением Игорь</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1516828409002" stop="1516828409082" status="passed">
+                            <name>stepFullFill[ПаспортСерия, 9300]</name>
+                            <title>Поле ПаспортСерия заполняется значением 9300</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1516828409083" stop="1516828409164" status="passed">
+                            <name>stepFullFill[ПаспортНомер, 635987]</name>
+                            <title>Поле ПаспортНомер заполняется значением 635987</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1516828409165" stop="1516828409253" status="passed">
+                            <name>stepFullFill[Фамилия, Романов]</name>
+                            <title>Поле Фамилия заполняется значением Романов</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1516828409253" stop="1516828409458" status="passed">
+                            <name>stepFullFill[ПаспортГдеВыдан, Город N]</name>
+                            <title>Поле ПаспортГдеВыдан заполняется значением Город N</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1516828409458" stop="1516828409533" status="passed">
+                            <name>stepFullFill[ИмяСтрахуемого, Petr]</name>
+                            <title>Поле ИмяСтрахуемого заполняется значением Petr</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1516828409534" stop="1516828409679" status="passed">
+                            <name>stepFullFill[ПаспортДатаВыдачи, 10.11.2005]</name>
+                            <title>Поле ПаспортДатаВыдачи заполняется значением 10.11.2005</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1516828409679" stop="1516828409844" status="passed">
+                            <name>stepFullFill[ДатаРождения, 01.08.1985]</name>
+                            <title>Поле ДатаРождения заполняется значением 01.08.1985</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1516828409845" stop="1516828409925" status="passed">
+                            <name>stepFullFill[ФамилияСтрахуемого, Romanov]</name>
+                            <title>Поле ФамилияСтрахуемого заполняется значением Romanov</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1516828409926" stop="1516828410082" status="passed">
+                            <name>stepFullFill[ДатаРожденияСтрахуемого, 09.05.1965]</name>
+                            <title>Поле ДатаРожденияСтрахуемого заполняется значением 09.05.1965</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1516828410083" stop="1516828410164" status="passed">
+                            <name>stepFullFill[Отчество, Петрович]</name>
+                            <title>Поле Отчество заполняется значением Петрович</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1516828410164" stop="1516828410817" status="passed">
+                    <name>checkFullField[{Имя=Игорь, ПаспортСерия=9300, ПаспортНомер=635987, Фамилия=Романов, ПаспортГдеВыдан=Город N, ИмяСтрахуем...]</name>
+                    <title>Поля заполнены следующими данными:</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1516828410165" stop="1516828410223" status="passed">
+                            <name>checkFullField[Имя, Игорь]</name>
+                            <title>Поле Имя заполнено значением Игорь</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1516828410224" stop="1516828410284" status="passed">
+                            <name>checkFullField[ПаспортСерия, 9300]</name>
+                            <title>Поле ПаспортСерия заполнено значением 9300</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1516828410285" stop="1516828410340" status="passed">
+                            <name>checkFullField[ПаспортНомер, 635987]</name>
+                            <title>Поле ПаспортНомер заполнено значением 635987</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1516828410341" stop="1516828410398" status="passed">
+                            <name>checkFullField[Фамилия, Романов]</name>
+                            <title>Поле Фамилия заполнено значением Романов</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1516828410399" stop="1516828410460" status="passed">
+                            <name>checkFullField[ПаспортГдеВыдан, Город N]</name>
+                            <title>Поле ПаспортГдеВыдан заполнено значением Город N</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1516828410460" stop="1516828410515" status="passed">
+                            <name>checkFullField[ИмяСтрахуемого, Petr]</name>
+                            <title>Поле ИмяСтрахуемого заполнено значением Petr</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1516828410515" stop="1516828410571" status="passed">
+                            <name>checkFullField[ПаспортДатаВыдачи, 10.11.2005]</name>
+                            <title>Поле ПаспортДатаВыдачи заполнено значением 10.11.2005</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1516828410572" stop="1516828410627" status="passed">
+                            <name>checkFullField[ДатаРождения, 01.08.1985]</name>
+                            <title>Поле ДатаРождения заполнено значением 01.08.1985</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1516828410628" stop="1516828410691" status="passed">
+                            <name>checkFullField[ФамилияСтрахуемого, Romanov]</name>
+                            <title>Поле ФамилияСтрахуемого заполнено значением Romanov</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1516828410691" stop="1516828410748" status="passed">
+                            <name>checkFullField[ДатаРожденияСтрахуемого, 09.05.1965]</name>
+                            <title>Поле ДатаРожденияСтрахуемого заполнено значением 09.05.1965</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1516828410749" stop="1516828410817" status="passed">
+                            <name>checkFullField[Отчество, Петрович]</name>
+                            <title>Поле Отчество заполнено значением Петрович</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1516828410817" stop="1516828411116" status="passed">
+                    <name>stepSendContinueButton</name>
+                    <title>Нажать на кнопку - Продолжить</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1516828411117" stop="1516828411171" status="passed">
+                    <name>stepCheckErrorMessage[Заполнены не все обязательные поля]</name>
+                    <title>Проверка сообщения об ошибке по заполнению полей</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="Egor-PC"/>
+                <label name="thread" value="3560@Egor-PC.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

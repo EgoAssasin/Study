@@ -1,0 +1,11 @@
+steps\TravelStep.class
+util\TestProperties.class
+steps\ChoiceSumStep.class
+steps\BaseStep.class
+pages\FullFillPage.class
+util\ListenerAllure.class
+pages\ChoiceSumPage.class
+pages\TravelPage.class
+steps\FullFillStep.class
+pages\MainPage.class
+steps\MainStep.class

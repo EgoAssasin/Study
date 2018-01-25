@@ -1,0 +1,20 @@
+{
+  "hosts" : [ {
+    "title" : "Egor-PC",
+    "threads" : [ {
+      "title" : "3560@Egor-PC.main(1)",
+      "testCases" : [ {
+        "uid" : "3104d604145850f8",
+        "name" : "allureInsuranceTest",
+        "title" : "Страхование путешественников",
+        "time" : {
+          "start" : 1516828401497,
+          "stop" : 1516828411173,
+          "duration" : 9676
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}
