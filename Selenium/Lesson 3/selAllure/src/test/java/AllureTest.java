@@ -32,7 +32,7 @@ public class AllureTest extends BaseStep {
         testData.put("ПаспортГдеВыдан","Город N");
 
         mainStep.stepSelectMainMenu("Раздел Застраховать себя  и имущество");
-        mainStep.stepSelectSubMenu("/ru/person/bank_inshure/insuranceprogram/life/travel");
+        mainStep.stepSelectSubMenu("Страхование путешественников");
         travelStep.chekTitle("Страхование путешественников");
         travelStep.stepsSendIssueButton();
         ArrayList<String> NewTab = new ArrayList<String>(driver.getWindowHandles());

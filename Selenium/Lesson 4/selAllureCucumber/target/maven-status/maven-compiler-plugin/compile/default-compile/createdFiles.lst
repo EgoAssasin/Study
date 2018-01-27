@@ -1,0 +1,12 @@
+steps\TravelStep.class
+util\TestProperties.class
+steps\ChoiceSumStep.class
+steps\BaseStep.class
+pages\FullFillPage.class
+util\AllureReporter.class
+pages\ChoiceSumPage.class
+pages\TravelPage.class
+steps\FullFillStep.class
+steps\ScenarioSteps.class
+pages\MainPage.class
+steps\MainStep.class

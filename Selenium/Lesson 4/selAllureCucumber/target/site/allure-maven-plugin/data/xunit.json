@@ -1,0 +1,38 @@
+{
+  "time" : {
+    "start" : 1517075566572,
+    "stop" : 1517075606537,
+    "duration" : 39965
+  },
+  "testSuites" : [ {
+    "uid" : "96d85b4946c29dde",
+    "name" : "Страхование",
+    "title" : "Страхование",
+    "time" : {
+      "start" : 1517075566572,
+      "stop" : 1517075606537,
+      "duration" : 39965
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "95089313357c885f",
+      "name" : "Заявка на страховку путешественников",
+      "title" : "Заявка на страховку путешественников",
+      "time" : {
+        "start" : 1517075566572,
+        "stop" : 1517075606537,
+        "duration" : 39965
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

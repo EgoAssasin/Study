@@ -1,0 +1,37 @@
+{
+  "features" : [ {
+    "title" : "Страхование",
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "95bbbbed2455763e",
+      "title" : "Заявка на страховку путешественников",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "95089313357c885f",
+        "name" : "Заявка на страховку путешественников",
+        "title" : "Заявка на страховку путешественников",
+        "time" : {
+          "start" : 1517075566572,
+          "stop" : 1517075606537,
+          "duration" : 39965
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

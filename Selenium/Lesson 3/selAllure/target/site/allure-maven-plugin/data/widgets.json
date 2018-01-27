@@ -11,9 +11,9 @@
         "broken" : 0
       },
       "time" : {
-        "start" : 1516828401497,
-        "stop" : 1516828411173,
-        "duration" : 9676
+        "start" : 1517070055242,
+        "stop" : 1517070084872,
+        "duration" : 29630
       }
     },
     "defects" : {
@@ -23,7 +23,7 @@
     "xunit" : {
       "totalCount" : 1,
       "items" : [ {
-        "uid" : "7b8145b361b7a45a",
+        "uid" : "eccfb8aedb8a8b58",
         "title" : "Allure test",
         "statistic" : {
           "total" : 1,

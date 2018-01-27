@@ -1,17 +1,17 @@
 {
   "time" : {
-    "start" : 1516828401497,
-    "stop" : 1516828411173,
-    "duration" : 9676
+    "start" : 1517070055242,
+    "stop" : 1517070084872,
+    "duration" : 29630
   },
   "testSuites" : [ {
-    "uid" : "7b8145b361b7a45a",
+    "uid" : "eccfb8aedb8a8b58",
     "name" : "AllureTest",
     "title" : "Allure test",
     "time" : {
-      "start" : 1516828401497,
-      "stop" : 1516828411173,
-      "duration" : 9676
+      "start" : 1517070055242,
+      "stop" : 1517070084872,
+      "duration" : 29630
     },
     "statistic" : {
       "total" : 1,
@@ -23,13 +23,13 @@
     },
     "description" : null,
     "testCases" : [ {
-      "uid" : "3104d604145850f8",
+      "uid" : "f333655efdd8269a",
       "name" : "allureInsuranceTest",
       "title" : "Страхование путешественников",
       "time" : {
-        "start" : 1516828401497,
-        "stop" : 1516828411173,
-        "duration" : 9676
+        "start" : 1517070055242,
+        "stop" : 1517070084872,
+        "duration" : 29630
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
