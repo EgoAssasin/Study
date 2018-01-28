@@ -11,9 +11,14 @@ import java.util.concurrent.TimeUnit;
  * Created by Egor on 21.01.2018.
  */
 public class BaseTest {
+
     protected static WebDriver driver;
     protected static String baseUrl;
     public static Properties properties = TestProperties.getINSTANCE().getProperties();
+
+    public static WebDriver getDriver() {
+        return driver;
+    }
 
     @BeforeClass
     public static void setUp() throws Exception {

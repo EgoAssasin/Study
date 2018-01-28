@@ -1,12 +1,6 @@
 import org.junit.Assert;
 import org.junit.Test;
-import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Wait;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import pages.ChoiceSumPage;
 import pages.FullFillPage;
 import pages.MainPage;
@@ -86,12 +80,11 @@ public class RefactoringTest extends BaseTest {
         /**
          * Поиск элемента сообщения об ошибке и проверка Assert-ом
          */
-        Wait<WebDriver> wait = new WebDriverWait(driver,10, 1000);
+        /*Wait<WebDriver> wait = new WebDriverWait(driver,10, 1000);
         WebElement alertText = driver.findElement(By.xpath("//div [text()='Заполнены не все обязательные поля']"));
         wait.until(ExpectedConditions.visibilityOf(alertText));
-        Assert.assertEquals("Заполнены не все обязательные поля",alertText.getText());
-
-
+        Assert.assertEquals("Заполнены не все обязательные поля",alertText.getText());*/
+        fullFillPage.checkErrorMessage("Заполнены не все обязательные поля");
     }
 
 }

@@ -1,4 +1,6 @@
 package pages;
+
+import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -105,6 +107,10 @@ public class FullFillPage {
     {
         element.clear();
         element.sendKeys(value);
+    }
+
+    public  void checkErrorMessage(String InputData){
+        Assert.assertEquals(InputData,alertText.getText());
     }
 
 
