@@ -1,0 +1,356 @@
+{
+  "uid" : "7143a54c8e1206d8",
+  "name" : "Выбор товара 1",
+  "title" : "Выбор товара 1",
+  "time" : {
+    "start" : 1517653510157,
+    "stop" : 1517653529160,
+    "duration" : 19003
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 20
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "500f80fadc3b1c0c",
+    "name" : "Товар в маркете",
+    "title" : "Товар в маркете"
+  },
+  "steps" : [ {
+    "name" : "Когда выбран пункт меню \"Маркет\"",
+    "title" : "Когда выбран пункт меню \"Маркет\"",
+    "time" : {
+      "start" : 1517653516678,
+      "stop" : 1517653518617,
+      "duration" : 1939
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepSelectMainMenu[Маркет]",
+      "title" : "Выбран пункт меню Маркет",
+      "time" : {
+        "start" : 1517653516883,
+        "stop" : 1517653518616,
+        "duration" : 1733
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда выбран раздел - \"Электроника\"",
+    "title" : "Когда выбран раздел - \"Электроника\"",
+    "time" : {
+      "start" : 1517653518617,
+      "stop" : 1517653518835,
+      "duration" : 218
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepSelectMainMenu[Электроника]",
+      "title" : "Выбран пункт меню Электроника",
+      "time" : {
+        "start" : 1517653518618,
+        "stop" : 1517653518835,
+        "duration" : 217
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда выбран подраздел - \"Телевизоры\"",
+    "title" : "Тогда выбран подраздел - \"Телевизоры\"",
+    "time" : {
+      "start" : 1517653518835,
+      "stop" : 1517653522572,
+      "duration" : 3737
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepSelectSubMenu[Телевизоры]",
+      "title" : "Выбран пункт подменю Телевизоры",
+      "time" : {
+        "start" : 1517653518836,
+        "stop" : 1517653522572,
+        "duration" : 3736
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда заполняются поля:",
+    "title" : "Когда заполняются поля:",
+    "time" : {
+      "start" : 1517653522572,
+      "stop" : 1517653523374,
+      "duration" : 802
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 3
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepFullFill[Цена от:, 20000]",
+      "title" : "Поле Цена от: заполняется значением 20000",
+      "time" : {
+        "start" : 1517653522575,
+        "stop" : 1517653522886,
+        "duration" : 311
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "stepFullFill[Производитель 1, LG]",
+      "title" : "Поле Производитель 1 заполняется значением LG",
+      "time" : {
+        "start" : 1517653522886,
+        "stop" : 1517653523123,
+        "duration" : 237
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "stepFullFill[Производитель 2, Samsung]",
+      "title" : "Поле Производитель 2 заполняется значением Samsung",
+      "time" : {
+        "start" : 1517653523124,
+        "stop" : 1517653523374,
+        "duration" : 250
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда нажата кнопка - Применить",
+    "title" : "Когда нажата кнопка - Применить",
+    "time" : {
+      "start" : 1517653523374,
+      "stop" : 1517653525787,
+      "duration" : 2413
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepSendApplyBatton",
+      "title" : "Нажать на кнопку - Применить",
+      "time" : {
+        "start" : 1517653523375,
+        "stop" : 1517653525787,
+        "duration" : 2412
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда количество элементов на странице равно - \"12\"",
+    "title" : "Тогда количество элементов на странице равно - \"12\"",
+    "time" : {
+      "start" : 1517653525787,
+      "stop" : 1517653525897,
+      "duration" : 110
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepCheckDiscoverItems[12]",
+      "title" : "Проверка количества элементов на странице",
+      "time" : {
+        "start" : 1517653525788,
+        "stop" : 1517653525897,
+        "duration" : 109
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда заполнена строка поиска",
+    "title" : "Когда заполнена строка поиска",
+    "time" : {
+      "start" : 1517653525897,
+      "stop" : 1517653526464,
+      "duration" : 567
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepSearch",
+      "title" : "Ввод в поисковую строку первого элемента из списка",
+      "time" : {
+        "start" : 1517653525899,
+        "stop" : 1517653526463,
+        "duration" : 564
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда нажата кнопка - Найти",
+    "title" : "Когда нажата кнопка - Найти",
+    "time" : {
+      "start" : 1517653526464,
+      "stop" : 1517653526620,
+      "duration" : 156
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepSendFindButton",
+      "title" : "Нажать на кнопку - Найти",
+      "time" : {
+        "start" : 1517653526465,
+        "stop" : 1517653526620,
+        "duration" : 155
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда наименование товара соответствует запомненному значению",
+    "title" : "Тогда наименование товара соответствует запомненному значению",
+    "time" : {
+      "start" : 1517653526620,
+      "stop" : 1517653528167,
+      "duration" : 1547
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepCheckItem",
+      "title" : "Проверка, что наименование товара соответствует запомненному значению",
+      "time" : {
+        "start" : 1517653526621,
+        "stop" : 1517653528166,
+        "duration" : 1545
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "5604@Egor-PC.main(1)"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "feature",
+    "value" : "Товар в маркете"
+  }, {
+    "name" : "story",
+    "value" : "Выбор товара 1"
+  }, {
+    "name" : "host",
+    "value" : "Egor-PC"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "suite-name",
+    "value" : "Товар в маркете"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  } ],
+  "parameters" : [ ]
+}

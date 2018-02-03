@@ -1,0 +1,13 @@
+steps\MarketStep.class
+util\TestProperties.class
+util\AllureReporter.class
+steps\ScenarioSteps.class
+steps\ItemPageStep.class
+pages\MainPage.class
+steps\MainStep.class
+util\TextTransfer.class
+steps\BaseStep.class
+pages\FullFillPage.class
+pages\ItemPage.class
+pages\MarketPage.class
+steps\FullFillStep.class

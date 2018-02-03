@@ -1,0 +1,31 @@
+{
+  "hosts" : [ {
+    "title" : "Egor-PC",
+    "threads" : [ {
+      "title" : "5604@Egor-PC.main(1)",
+      "testCases" : [ {
+        "uid" : "7143a54c8e1206d8",
+        "name" : "Выбор товара 1",
+        "title" : "Выбор товара 1",
+        "time" : {
+          "start" : 1517653510157,
+          "stop" : 1517653529160,
+          "duration" : 19003
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "eb8f99991163265a",
+        "name" : "Выбор товара 2",
+        "title" : "Выбор товара 2",
+        "time" : {
+          "start" : 1517653529160,
+          "stop" : 1517653546118,
+          "duration" : 16958
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}
